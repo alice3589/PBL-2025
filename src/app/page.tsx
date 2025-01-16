@@ -26,11 +26,11 @@ const TeachersPage: NextPage = () => {
   const teachers: TeacherInfo[] = [
     {
       id: 1,
-      name: '山田 太郎',
-      nameKana: 'やまだ たろう',
-      subject: '数学',
+      name: '大内 清司',
+      nameKana: 'おおうち せいじ',
+      subject: '国語',
       profile:
-        '10年以上の指導経験を持ち、数多くの生徒の成績アップを支えてきました。わかりやすく丁寧な解説がモットーです。',
+        '特任教授 文学修士',
       imageUrl: '/images/teacher1.jpg',
       schedule: [
         { day: '月曜日', time: '10:00 - 12:00', classroom: 'A教室' },
@@ -39,11 +39,11 @@ const TeachersPage: NextPage = () => {
     },
     {
       id: 2,
-      name: '佐藤 花子',
-      nameKana: 'さとう はなこ',
-      subject: '英語',
+      name: '山本 空',
+      nameKana: 'やまもと そら',
+      subject: '国語',
       profile:
-        '留学経験を活かし、実践的な英語力を養うことを得意としています。個々のレベルに合わせた指導を心がけています。',
+        '講師 博士(文学)',
       imageUrl: '/images/teacher2.jpg',
       schedule: [
         { day: '火曜日', time: '9:00 - 11:00', classroom: 'A教室' },
@@ -52,10 +52,11 @@ const TeachersPage: NextPage = () => {
     },
     {
       id: 3,
-      name: '田中 一郎',
-      subject: '数学',
+      name: '上田 透',
+      nameKana: 'うえだ とおる',
+      subject: '英語',
       profile:
-        '大学時代から個別指導塾で多数の生徒を指導。苦手意識を克服できるよう、面白さを伝えることを大切にしています。',
+        '准教授 文学修士',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
         { day: '月曜日', time: '9:00 - 10:00', classroom: 'C教室' },
@@ -64,11 +65,141 @@ const TeachersPage: NextPage = () => {
     },
     {
       id: 4,
-      name: '鈴木 三郎',
-      nameKana: 'すずき さぶろう',
-      subject: '国語',
+      name: '藤本 時子',
+      nameKana: 'ふじもと ときこ',
+      subject: '英語',
       profile:
-        '読み書きの基礎から応用まで幅広い指導が可能。生徒の興味を引き出しながら、言葉の力を育みます。',
+        '准教授 博士(外国語文献学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 5,
+      name: '奈須 健',
+      nameKana: 'なす けん',
+      subject: '英語',
+      profile:
+        '准教授 修士(国際公共政策)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 6,
+      name: 'ﾉｳﾞｧｼｮｰﾗｳﾞｧ ｲﾘｰﾅ',
+      nameKana: 'のゔぁしょーらゔぁ・いリーな',
+      subject: '英語',
+      profile:
+        '講師 博士(文学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 7,
+      name: '伊藤 豊治',
+      nameKana: 'いとう とよはる',
+      subject: '数学',
+      profile:
+        '教授 博士(数理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 8,
+      name: '神田 毅',
+      nameKana: 'かんだ たけし',
+      subject: '数学',
+      profile:
+        '准教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 9,
+      name: '鍬田 英也',
+      nameKana: 'くわた ひでや',
+      subject: '数学',
+      profile:
+        '講師 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 10,
+      name: '谷口 寛',
+      nameKana: 'たにぐち ゆたか',
+      subject: '数学',
+      profile:
+        '助教 修士(教育学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 11,
+      name: '今野 理喜男',
+      nameKana: 'こんの りきお',
+      subject: '理科',
+      profile:
+        '教授 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 12,
+      name: '鈴木 隆',
+      nameKana: 'すずき たかし',
+      subject: '理科',
+      profile:
+        '教授 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 13,
+      name: '畑山 伸訓',
+      nameKana: 'はたやま のぶくに',
+      subject: '理科',
+      profile:
+        '准教授 修士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 14,
+      name: '坂東 将光',
+      nameKana: 'ばんどう まさみつ',
+      subject: '理科',
+      profile:
+        '准教授 博士(理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
         { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
