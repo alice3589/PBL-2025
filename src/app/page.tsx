@@ -206,6 +206,110 @@ const TeachersPage: NextPage = () => {
         { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
       ],
     },
+    {
+      id: 15,
+      name: '松尾 大介',
+      nameKana: 'まつお だいすけ',
+      subject: '社会',
+      profile:
+        '教授',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 16,
+      name: '辻本 修',
+      nameKana: 'つじもと おさむ',
+      subject: '保健体育',
+      profile:
+        '特任教授',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 17,
+      name: '齊藤 彰',
+      nameKana: 'さいとう あきら',
+      subject: '保健体育',
+      profile:
+        '教授',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 18,
+      name: '荒賀 浩一',
+      nameKana: 'あらが こういち',
+      subject: '機械システムコース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 19,
+      name: '瀧浦 晃基',
+      nameKana: 'たきうら こうき',
+      subject: '機械システムコース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 20,
+      name: '中村 信広',
+      nameKana: 'なかむら のぶひろ',
+      subject: '機械システムコース',
+      profile:
+        '准教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 21,
+      name: '長谷川 尚哉',
+      nameKana: 'はせがわ なおや',
+      subject: '機械システムコース',
+      profile:
+        '准教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 22,
+      name: '木岡 桂太郎',
+      nameKana: 'きおか けいたろう',
+      subject: '機械システムコース',
+      profile:
+        '講師 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
   ];
 
   // 検索文字列の state
