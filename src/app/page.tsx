@@ -310,6 +310,162 @@ const TeachersPage: NextPage = () => {
         { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
       ],
     },
+    {
+      id: 23,
+      name: '山川 昌文',
+      nameKana: 'やまかわ まさふみ',
+      subject: '電気電子コース',
+      profile:
+        '特任教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 24,
+      name: '吉川 隆',
+      nameKana: 'よしかわ たかし',
+      subject: '電気電子コース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 25,
+      name: '齊藤 公博',
+      nameKana: 'さいとう きみひろ',
+      subject: '電気電子コース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 26,
+      name: '仲森 昌也',
+      nameKana: 'なかもり まさや',
+      subject: '電気電子コース',
+      profile:
+        '准教授 工学修士',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 27,
+      name: '小山 幸伸',
+      nameKana: 'こやま ゆきのぶ',
+      subject: '電気電子コース',
+      profile:
+        '准教授 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 28,
+      name: '關 成之',
+      nameKana: 'せき しげゆき',
+      subject: '電気電子コース',
+      profile:
+        '准教授 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 29,
+      name: '本田 康子',
+      nameKana: 'ほんだ やすこ',
+      subject: '制御情報コース',
+      profile:
+        '准教授 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 30,
+      name: '舩島 洋紀',
+      nameKana: 'ふなしま ひろき',
+      subject: '制御情報コース',
+      profile:
+        '准教授 博士(理学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 31,
+      name: '黄 文敬',
+      nameKana: 'ふぁん うぇんじん',
+      subject: '制御情報コース',
+      profile:
+        '准教授 博士(医工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 32,
+      name: '桑川 栄一',
+      nameKana: 'くわかわ えいいち',
+      subject: '制御情報コース',
+      profile:
+        '特任講師 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 33,
+      name: '高 成柱',
+      nameKana: 'こう そんじゅ',
+      subject: '制御情報コース',
+      profile:
+        '助教',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 34,
+      name: '中平 恭之',
+      nameKana: 'なかむら やすゆき',
+      subject: '都市環境コース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
   ];
 
   // 検索文字列の state
