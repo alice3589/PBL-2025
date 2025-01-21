@@ -466,6 +466,71 @@ const TeachersPage: NextPage = () => {
         { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
       ],
     },
+    {
+      id: 35,
+      name: '石田 優子',
+      nameKana: 'いしだ ゆうこ',
+      subject: '都市環境コース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 36,
+      name: '立神 靖久',
+      nameKana: 'たつかみ やすひさ',
+      subject: '都市環境コース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 37,
+      name: '田中 和幸',
+      nameKana: 'たなか かずゆき',
+      subject: '都市環境コース',
+      profile:
+        '教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 38,
+      name: '松岡 良智',
+      nameKana: 'まつおか よしのり',
+      subject: '都市環境コース',
+      profile:
+        '准教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
+    {
+      id: 39,
+      name: '安井 宣仁',
+      nameKana: 'やすい のぶひと',
+      subject: '都市環境コース',
+      profile:
+        '准教授 博士(工学)',
+      imageUrl: '/images/teacher3.jpg',
+      schedule: [
+        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
+        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+      ],
+    },
   ];
 
   // 検索文字列の state
