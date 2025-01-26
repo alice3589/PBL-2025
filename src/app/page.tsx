@@ -21,6 +21,21 @@ type TeacherInfo = {
   schedule: ScheduleSlot[]; // 教室情報を含む
 };
 
+function getPeriodLabel(time: string): string {
+  if (time === "9:30 - 10:15") return "1限";
+  if (time === "10:20 - 11:05") return "2限";
+  if (time === "11:10 - 11:55") return "3限";
+  if (time === "12:00 - 12:45") return "4限a";
+  if (time === "12:40 - 13:25") return "4限b";
+  if (time === "13:30 - 14:15") return "5限";
+  if (time === "14:20 - 15:05") return "6限";
+  if (time === "15:10 - 15:55") return "7限";
+  if (time === "16:00 - 16:45") return "8限";
+  if (time === "16:50 - 17:35") return "9限";
+  if (time === "17:40 - 18:25") return "10限";
+  return "不明";
+}
+
 const TeachersPage: NextPage = () => {
   // 全先生データ
   const teachers: TeacherInfo[] = [
@@ -33,8 +48,7 @@ const TeachersPage: NextPage = () => {
         '特任教授 文学修士',
       imageUrl: '/images/teacher1.jpg',
       schedule: [
-        { day: '月曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '水曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '214教室' },
       ],
     },
     {
@@ -46,8 +60,9 @@ const TeachersPage: NextPage = () => {
         '講師 博士(文学)',
       imageUrl: '/images/teacher2.jpg',
       schedule: [
-        { day: '火曜日', time: '9:00 - 11:00', classroom: 'A教室' },
-        { day: '木曜日', time: '13:00 - 15:00', classroom: 'C教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '222教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '312教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '221教室' },
       ],
     },
     {
@@ -72,8 +87,8 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(外国語文献学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '312教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '223教室' },
       ],
     },
     {
@@ -85,8 +100,8 @@ const TeachersPage: NextPage = () => {
         '准教授 修士(国際公共政策)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '222教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '211教室' },
       ],
     },
     {
@@ -98,8 +113,9 @@ const TeachersPage: NextPage = () => {
         '講師 博士(文学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '032教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '221教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '212教室' },
       ],
     },
     {
@@ -111,8 +127,11 @@ const TeachersPage: NextPage = () => {
         '教授 博士(数理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '222教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '222教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '222教室' },
+        { day: '火曜日', time: '16:50 - 17:35', classroom: '034教室' },
+        { day: '火曜日', time: '17:40 - 18:25', classroom: '034教室' },
       ],
     },
     {
@@ -124,8 +143,10 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '224教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '224教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '314教室' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: '224教室' },
       ],
     },
     {
@@ -137,8 +158,10 @@ const TeachersPage: NextPage = () => {
         '講師 博士(理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '223教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '223教室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '214教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '214教室' },
       ],
     },
     {
@@ -150,8 +173,11 @@ const TeachersPage: NextPage = () => {
         '助教 修士(教育学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '314教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '314教室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '212教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '212教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '223教室' },
       ],
     },
     {
@@ -593,10 +619,10 @@ const TeachersPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>先生一覧 - 教室付きスケジュール</title>
+        <title>先生一覧 - 何限目表示</title>
         <meta
           name="description"
-          content="先生を名前やフリガナで検索して、曜日ごとのスケジュール（教室情報つき）を表示します。"
+          content="先生を名前やフリガナで検索し、曜日ごとの時間割を「何限目」で表示します。"
         />
       </Head>
 
@@ -668,7 +694,8 @@ const TeachersPage: NextPage = () => {
                 <table style={styles.scheduleTable}>
                   <thead>
                     <tr>
-                      <th style={styles.tableHeader}>曜日</th>
+                      {/* ★「曜日」は表示せず、代わりに「何限目」を表示 */}
+                      <th style={styles.tableHeader}>何限目</th>
                       <th style={styles.tableHeader}>時間</th>
                       <th style={styles.tableHeader}>教室</th>
                     </tr>
@@ -678,7 +705,11 @@ const TeachersPage: NextPage = () => {
                       .filter((slot) => slot.day === currentDay)
                       .map((slot, index) => (
                         <tr key={index}>
-                          <td style={styles.tableCell}>{slot.day}</td>
+                          {/* getPeriodLabel で「何限目」に変換 */}
+                          <td style={styles.tableCell}>
+                            {getPeriodLabel(slot.time)}
+                          </td>
+                          {/* 時間はそのまま表示 */}
                           <td style={styles.tableCell}>{slot.time}</td>
                           <td style={styles.tableCell}>{slot.classroom}</td>
                         </tr>
