@@ -322,8 +322,10 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '022教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '022教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '025教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '025教室' },
       ],
     },
     {
@@ -335,8 +337,7 @@ const TeachersPage: NextPage = () => {
         '講師 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        
       ],
     },
     {
@@ -361,8 +362,12 @@ const TeachersPage: NextPage = () => {
         '教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '323または324教室' },
+        { day: '火曜日', time: '12:40 - 13:25', classroom: '323または324教室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '323または324教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '323または324教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '323または324教室' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: '323または324教室' },
       ],
     },
     {
@@ -374,8 +379,12 @@ const TeachersPage: NextPage = () => {
         '教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '教室またはグラウンド' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '教室またはグラウンド' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '教室またはグラウンド' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '教室またはグラウンド' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '教室またはグラウンド' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: '教室またはグラウンド' },
       ],
     },
     {
@@ -387,8 +396,7 @@ const TeachersPage: NextPage = () => {
         '准教授 工学修士',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        
       ],
     },
     {
@@ -400,8 +408,8 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '312教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '312教室' },
       ],
     },
     {
@@ -413,8 +421,7 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        
       ],
     },
     {
@@ -426,8 +433,13 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: 'CAE教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: 'CAE教室' },
+        { day: '火曜日', time: '12:40 - 13:25', classroom: 'CAE教室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: 'CAE教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: 'CAE教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: 'CAE教室' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: 'CAE教室' },
       ],
     },
     {
@@ -439,8 +451,7 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(理学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        
       ],
     },
     {
@@ -452,8 +463,9 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(医工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '322教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '322教室' },
+        { day: '火曜日', time: '12:40 - 13:25', classroom: 'CAI教室' },
       ],
     },
     {
@@ -465,8 +477,7 @@ const TeachersPage: NextPage = () => {
         '特任講師 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+
       ],
     },
     {
@@ -478,8 +489,13 @@ const TeachersPage: NextPage = () => {
         '助教',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: 'CAE教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: 'CAE教室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: 'CAE教室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: 'CAE教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: 'CAE教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: 'CAE教室' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: 'CAE教室' },
       ],
     },
     {
@@ -491,8 +507,12 @@ const TeachersPage: NextPage = () => {
         '教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '測量室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '測量室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '測量室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '測量室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '測量室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '測量室' },
       ],
     },
     {
@@ -504,8 +524,13 @@ const TeachersPage: NextPage = () => {
         '教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '地盤・環境実験室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '地盤・環境実験室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '地盤・環境実験室' },
+        { day: '火曜日', time: '12:00 - 12:45', classroom: '企画広報室' },
+        { day: '火曜日', time: '12:40 - 13:25', classroom: '企画広報室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: '033教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: '033教室' },
       ],
     },
     {
@@ -517,8 +542,8 @@ const TeachersPage: NextPage = () => {
         '教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '建築デザイン室' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: '建築デザイン室' },
       ],
     },
     {
@@ -530,8 +555,10 @@ const TeachersPage: NextPage = () => {
         '教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '建築デザイン室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '建築デザイン室' },
+        { day: '火曜日', time: '13:30 - 14:15', classroom: 'CAL教室' },
+        { day: '火曜日', time: '14:20 - 15:05', classroom: 'CAL教室' },
       ],
     },
     {
@@ -543,8 +570,8 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '11:10 - 11:55', classroom: '041教室' },
+        { day: '火曜日', time: '12:40 - 13:25', classroom: '041教室' },
       ],
     },
     {
@@ -556,8 +583,11 @@ const TeachersPage: NextPage = () => {
         '准教授 博士(工学)',
       imageUrl: '/images/teacher3.jpg',
       schedule: [
-        { day: '金曜日', time: '10:00 - 12:00', classroom: 'A教室' },
-        { day: '金曜日', time: '14:00 - 16:00', classroom: 'B教室' },
+        { day: '火曜日', time: '9:30 - 10:15', classroom: '水理実験室' },
+        { day: '火曜日', time: '10:20 - 11:05', classroom: '水理実験室' },
+        { day: '火曜日', time: '11:10 - 12:55', classroom: '水理実験室' },
+        { day: '火曜日', time: '15:10 - 15:55', classroom: '033教室' },
+        { day: '火曜日', time: '16:00 - 16:45', classroom: '033教室' },
       ],
     },
   ];
